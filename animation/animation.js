@@ -1,12 +1,12 @@
 
-var monster = $('monster')
+var monster = $('#monster')
 console.log(monster)
 function show() {
-    monster.fadeIn()
+    monster.fadeIn(2000)
 }
 
 function hide() {
-    monster.fadeOut()
+    monster.fadeOut(2000)
 }
 
 function moveRight() {
@@ -26,5 +26,5 @@ function moveDown() {
 }
 
 function moveSequence() {
-    
+
 }
