@@ -10,15 +10,15 @@ function hide() {
 }
 
 function moveRight() {
-    monster.animate({left: 500},300)
+    monster.animate({left: 300},300)
 }
 
 function moveLeft() {
-    monster.animate({left: 500},300)
+    monster.animate({left: 0},300)
 }
 
 function moveUp() {
-    monster.animate({top: 0},250)
+    monster.animate({top: 0},300)
 }
 
 function moveDown() {
