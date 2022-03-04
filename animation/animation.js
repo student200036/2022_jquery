@@ -26,7 +26,7 @@ function moveDown() {
 }
 
 function moveSequence() {
-    const duration = 30
+    const duration = 20
 
     monster
     .animate({left: 300}, duration)
@@ -105,37 +105,6 @@ function moveSequence() {
     .animate({left: 0}, duration)
     .animate({left: 300}, duration)
     .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
-    .animate({left: 300}, duration)
-    .animate({left: 0}, duration)
+
 
 }
