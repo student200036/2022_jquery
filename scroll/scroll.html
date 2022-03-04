@@ -9,7 +9,7 @@
 <body>
     <script>
         $(function(){
-            $('hem1, body').on('scroll', function(event){
+            $(window).on('scroll', function(event){
                 var top = $('this').scrollTop()
                 console.log(event)
                 if(top > 200){
