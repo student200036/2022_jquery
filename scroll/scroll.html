@@ -10,7 +10,15 @@
     <script>
         $(function(){
             $('hem1, body').on('scroll', function(event){
+                var top = $('this').scrollTop()
                 console.log(event)
+                if(top > 200){
+                    $('body').css('background', 'black')
+                    $('body').css('color', 'black')
+                } else {
+                    $('body').css('background', 'white')
+                    $('body').css('color', 'black')
+                }
             })
         })
     </script>
