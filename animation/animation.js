@@ -26,7 +26,7 @@ function moveDown() {
 }
 
 function moveSequence() {
-    const duration = 5
+    const duration = 30
 
     monster
     .animate({left: 300}, duration)
